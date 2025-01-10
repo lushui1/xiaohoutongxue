@@ -7,7 +7,7 @@ def countdown(target_date):
     st.markdown("""
     <style>
     .stApp {
-        background-image: url('https://github.com/lushui1/x-/raw/main/Snipaste_2025-01-02_16-27-40.png');
+        background-image: url('https://github.com/lushui1/xiaohoutongxue/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250110152922.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
