@@ -7,55 +7,45 @@ def countdown(target_date):
     st.markdown("""
     <style>
     .stApp {
-        background-image: url('https://github.com/lushui1/xiaohoutongxue/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250110152922.jpg');
+        background-image: url('https://github.com/lushui1/xiaohoutongxue/blob/main/微信图片_20250110152922.jpg?raw=true');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        color: #FFFFFF;
-        font-family: 'Arial', sans-serif;
+        color: #333333;
+        font-family: 'Helvetica Neue', sans-serif;
     }
     .overlay {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
         padding: 30px;
-        border-radius: 20px;
+        border-radius: 15px;
         text-align: center;
-    }
+        max-width: 600px;
+        margin: auto;
+        margin-top: 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    } 
     .title {
-        font-size: 50px;
+        font-size: 36px;
         font-weight: bold;
-        color: #FFC107;
-        text-shadow: 2px 2px 5px #000000;
+        color: #4A90E2;
         margin-bottom: 20px;
-        animation: glow 1.5s infinite;
     }
     .subtitle {
-        font-size: 25px;
-        font-weight: 500;
-        color: #FFD700;
+        font-size: 20px;
+        color: #50E3C2;
         margin-bottom: 30px;
     }
     .countdown {
-        font-size: 60px;
+        font-size: 48px;
         font-weight: bold;
-        color: #FFFFFF;
-        text-shadow: 4px 4px 8px #000000;
+        color: #FF6F61;
         margin-top: 20px;
-        animation: pulse 1s infinite;
-    }
-    @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-    }
-    @keyframes glow {
-        0% { text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700; }
-        50% { text-shadow: 0 0 15px #FFD700, 0 0 30px #FFD700; }
-        100% { text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700; }
+        text-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
     }
     .footer {
-        font-size: 18px;
-        color: #BBBBBB;
-        margin-top: 50px;
+        font-size: 16px;
+        color: #999999;
+        margin-top: 40px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -106,3 +96,5 @@ def countdown(target_date):
 if __name__ == "__main__":
     target_date = datetime(2025, 2, 13, 0, 0, 0)
     countdown(target_date)
+
+
